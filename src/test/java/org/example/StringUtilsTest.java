@@ -14,4 +14,13 @@ public class StringUtilsTest {
 
         Assertions.assertEquals("Hello, World!", stringUtils.getResult());
     }
+
+    @Test
+    public void testConcatenate2() {
+        StringUtils stringUtils = new StringUtils();
+
+        stringUtils.concatenate("Teste, ", "Concatenação!");
+
+        Assertions.assertEquals("Teste, Concatenação!", stringUtils.getResult());
+    }
 }
