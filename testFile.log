@@ -1,0 +1,4 @@
+14:54:36.040 185  [main] INFO  org.example.package3.MainApp - Resultado da adição: 15
+14:54:36.042 187  [main] INFO  org.example.package3.MainApp - String concatenada: Hello, World!
+14:54:36.042 187  [main] DEBUG org.example.package3.MainApp - Mensagem de debug para análise detalhada.
+14:54:36.042 187  [main] ERROR org.example.package3.MainApp - Erro ao dividir por zero: / by zero
