@@ -12,4 +12,9 @@ public class MathUtils {
                 System.out.println("é menor que 10");
             }
     }
+
+    public static int divide(int a, int b) {
+        return a / b;
+    }
 }
+
